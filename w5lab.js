@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 
 
 app.use(express.static('images'));
-app.use(express.static('css'));
+app.use(express.static('css')); 
 
 let db=[];
 
